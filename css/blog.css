@@ -26,6 +26,11 @@
     border-radius: 4px;
     background-color: #f7efefad;
     margin-bottom: 15px;
+    transition: all 0.5s;
+    
+}
+
+.blog_post:hover{
     box-shadow: 1px 1px 5px 3px #e4dcdc;
 }
 
@@ -108,4 +113,26 @@
     transform: translateY(-50%);
     font-size: 20px;
     cursor: pointer;
+    outline: none;
+}
+
+
+@media (max-width: 768px){
+    #blog_container{
+        grid-template-columns: 1fr;
+    }
+
+    .blog_category{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .blog{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
