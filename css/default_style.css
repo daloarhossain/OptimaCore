@@ -1,0 +1,214 @@
+/* 
+  Author: Daloar Hossain;
+  Description: This is a default css file that  will be used for all pages in this project.
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fafafa;
+}
+
+img {
+  max-width: 100%;
+}
+
+/***************** Header  **********************/
+
+header {
+  padding: 10px;
+  background-color: #fff2f2;
+}
+
+.navbar {
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between
+}
+
+#logo {
+  font-size: 23px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 30px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #850bb5
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+.taggle-btn {
+  display: none;
+  font-size: 25px;
+  color: black;
+  cursor: pointer;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.active_page {
+  border-bottom: 2px solid black;
+}
+
+/************** Footer **************/
+
+footer {
+  background-color: rgb(221 243 243);
+  padding: 25px;
+  box-shadow: 0px -2px 1px #e7d2d2;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.footer-top-left h6,
+.footer-top-right h6 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-top-left ul {
+  list-style: none;
+}
+
+.footer-top-left ul li {
+  margin-bottom: 10px;
+}
+
+.footer-top-left ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-top-left ul li a:hover {
+  color: blue;
+  transition: all .5s;
+
+}
+
+.footer-top-right ul {
+  list-style: none;
+  display: flex;
+}
+
+.footer-top-right ul li {
+  margin-left: 15px;
+}
+
+.footer-top-right ul li a {
+  font-size: 25px;
+  color: #4e1212;
+  transition: all .5s;
+}
+
+.footer-top-right ul li a:hover {
+  color: rgb(169, 31, 31);
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    justify-content: space-between;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: #111;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    display: none;
+    padding: 20px 0;
+  }
+
+  .nav-links li {
+    margin: 15px 0;
+  }
+
+  .nav-links li a {
+    color: white;
+  }
+
+  .taggle-btn {
+    display: block;
+  }
+
+  #menu-toggle:checked+.taggle-btn+.nav-links {
+    display: flex;
+  }
+
+  .active_page {
+    border-bottom: 2px solid white;
+  }
+
+
+
+  footer {
+    background-color: rgb(221 243 243);
+    padding: 25px;
+    box-shadow: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    justify-content: space-between;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-top-left ul li {
+    text-align: center;
+  }
+
+  .footer-top-right h6 {
+    text-align: center;
+    margin-top: 15px 0;
+  }
+}
