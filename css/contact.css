@@ -6,8 +6,9 @@
     background-color: white;
 }
 
-.contact_img img {
+#contact video {
     max-width: 100%;
+    border-radius: 15px;
 }
 
 form {
@@ -15,10 +16,11 @@ form {
 
 }
 
-form h2 {
+form h1 {
     text-align: center;
     margin-bottom: 10px;
-    font-size: 25px;
+    font-size: 30px;
+    text-transform:uppercase;
 }
 
 form input {
