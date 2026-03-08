@@ -35,34 +35,35 @@
 }
 
 /* Achievement section */
-#achievement_section{
+#achievement_section {
     padding: 50px 0;
 
 }
 
-#achievement_section h2{
+#achievement_section h2 {
     text-align: center;
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-.all_achievement{
+.all_achievement {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-.each_achievement{
+
+.each_achievement {
     cursor: pointer;
     padding: 7px;
     text-align: center;
 }
 
-.each_achievement i{
+.each_achievement i {
     font-size: 45px;
     margin-bottom: 12px;
 }
 
-.each_achievement p{
+.each_achievement p {
     font-size: 18px;
     margin-bottom: 7px;
 }
@@ -105,7 +106,7 @@
     margin-bottom: 7px;
 }
 
-.service-details h4 {
+.service-details h3 {
     font-size: 18px;
     margin-bottom: 5px;
 }
@@ -168,22 +169,23 @@
 }
 
 /* customer reviews */
-#customer-review{
+#customer-review {
     padding: 50px 0;
 }
-#customer-review > h1{
+
+#customer-review>h1 {
     margin-bottom: 20px;
     text-align: center;
 }
 
-.all_reviews{
+.all_reviews {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
 }
 
-.review{
-    box-shadow:  2px 3px #decece;
+.review {
+    box-shadow: 2px 3px #decece;
     padding: 15px;
     border-radius: 5px;
     display: flex;
@@ -192,22 +194,24 @@
     transition: all .5s;
 }
 
-.review:hover{
+.review:hover {
     box-shadow: 2px 2px 2px rgb(111, 109, 109);
 }
 
 
-.client_img{
+.client_img {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.review_text{
+
+.review_text {
     flex: 2;
 }
-.client_img img{
+
+.client_img img {
     width: 80px;
     min-height: 80px;
     max-height: 80px;
@@ -215,13 +219,13 @@
 
 }
 
-.client_img h6{
+.client_img h2 {
     font-size: 16px;
     margin-top: 5px;
 }
 
 
-.review_star{
+.review_star {
     color: rgb(142, 142, 12);
     font-size: 16px;
     margin-bottom: 6px;
@@ -238,7 +242,8 @@
         font-size: 15px;
         margin-top: 10px;
     }
-    .all_achievement{
+
+    .all_achievement {
         grid-template-columns: 1fr;
     }
 
@@ -247,11 +252,11 @@
         margin-bottom: 10px;
     }
 
-    #about_service{
+    #about_service {
         grid-template-columns: 1fr;
     }
 
-    .all_reviews{
+    .all_reviews {
         grid-template-columns: 1fr;
     }
 }
