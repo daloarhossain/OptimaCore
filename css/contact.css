@@ -9,6 +9,7 @@
 #contact video {
     max-width: 100%;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 form {
@@ -58,4 +59,9 @@ form button {
     #contact {
         grid-template-columns: 1fr;
     }
+
+    #contact video {
+    max-width: 100%;
+    border-radius: 0px;
+}
 }
