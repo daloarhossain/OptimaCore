@@ -92,6 +92,8 @@
     transition: all 0.5s;
     flex: 1;
     box-shadow: 1px 1px 1px #e3caca;
+    text-decoration: none;
+    color: black;
 }
 
 .service-img>img {
@@ -225,7 +227,7 @@
     margin-bottom: 6px;
 }
 
-
+/* Responsive Design */
 @media (max-width: 768px) {
     #hero-img h2 {
         font-size: 30px;

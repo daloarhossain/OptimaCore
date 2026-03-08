@@ -17,6 +17,7 @@
     margin-bottom: 10px;
 }
 
+/* Responsive Design */
 @media (max-width: 768px){
     #blog_detail_container img{
         height: 300px;

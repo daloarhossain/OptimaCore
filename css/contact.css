@@ -55,6 +55,7 @@ form button {
     cursor: pointer;
 }
 
+/* Responsive Design */
 @media (max-width: 768px) {
     #contact {
         grid-template-columns: 1fr;
