@@ -1,0 +1,24 @@
+#blog_detail_container{
+    padding: 50px;
+}
+#blog_detail_container h1{
+    margin-bottom: 15px;
+}
+#blog_detail_container img{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 15px;
+}
+
+#blog_detail_container p{
+    font-size: 17px;
+    text-align: justify;
+    color: #817d7d;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px){
+    #blog_detail_container img{
+        height: 300px;
+    }
+}
