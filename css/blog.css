@@ -20,6 +20,10 @@
     color: white;
 }
 
+.blog h1{
+    font-size: 25px;
+}
+
 .blog_post {
     cursor: pointer;
     padding: 7px;
