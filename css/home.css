@@ -259,4 +259,8 @@
     .all_reviews {
         grid-template-columns: 1fr;
     }
+
+    #customer-review>h1 {
+        font-size: 25px;
+    }
 }
